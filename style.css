@@ -1,0 +1,544 @@
+@font-face{
+    font-family: "Porsche";
+    src: url("police/911porschav3.ttf");
+
+    font-family: "Ferarri";
+    src: url("police/Ferrari.ttf");
+
+    font-family: "Mclaren";
+    src: url("police/McLaren-Regular.ttf");
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    background-color: gray;
+}
+
+
+/*css de la banniere*/
+
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.8)0%, rgba(0,0,0,0.2) 100%), url(images/PFM.jpg);
+    color: white;
+    padding: 500px 0%;
+    background-size: cover;
+    position: relative;
+}
+
+.banner h1 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    top : 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.banner p {
+    font-size: 50px;
+    position: absolute;
+    top : 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+/*css du menu*/
+
+
+
+.menu {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;                
+    padding:0;                    
+    justify-content: space-around;
+    margin-top: 50px
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+li{
+    font-size: 32px;
+}
+
+
+.menu li a:hover {
+    background-color: #111;
+}
+
+
+/*css des images et texte*/
+
+.porsche-title {
+    margin-top: 100px; 
+    margin-left: 10%;
+    transform: translateX(-50%);
+    margin-right: 75%;
+    float: center;
+}
+.img-porsche {
+    margin-top: 10px;
+    width: calc(50% - 2%);
+    height: 500px;
+    margin-left: 2%;
+    float: left;
+}
+.porsche-text {
+    margin-top: 50px; 
+    margin-left: 4%;
+    margin-right: 52%;
+    float: left;
+}
+
+
+
+.ferrari-title {
+    margin-top: 100px;
+    margin-left: 70%;
+    transform: translateX(+50%);
+    margin-right: 12%;
+    float: right;
+}
+.img-ferrari {
+    margin-top: 10px;
+    width: calc(50% - 2%);
+    height: 500px;
+    margin-right: 2%;
+    float: right;
+}
+.ferrari-text {
+    margin-top: 50px;
+    margin-left: 53%;
+    margin-right: 4%;
+    float: right;
+}
+
+
+
+.mclaren-title {
+    margin-top: 100px; 
+    margin-left: 10%;
+    transform: translateX(-50%);
+    margin-right: 75%;
+    float: left;
+}
+.img-mclaren {
+    margin-top: 10px;
+    width: calc(50% - 2%);
+    height: 500px;
+    margin-left: 2%;
+    float: left;
+}
+.mclaren-text {
+    margin-top: 50px;
+    margin-left: 4%;
+    margin-right: 52%;
+    float: left;
+}
+
+
+/* css des pages secondaires*/
+
+.ferrari-page {
+    font-family: Ferrari;
+}
+
+.porsche-page {
+    font-family: Porsche;
+}
+
+.mclaren-page {
+    font-family: Mclaren;
+}
+
+
+
+
+/* css de la page mclaren*/
+
+
+
+.P1-title {
+    margin-top: 100px; 
+    margin-left: 10%;
+    transform: translateX(-50%);
+    margin-right: 75%;
+    float: center;
+}
+.img-P1 {
+    margin-top: 10px;
+    width: calc(50% - 2%);
+    height: 500px;
+    margin-left: 2%;
+    float: left;
+}
+.P1-text {
+    margin-top: 50px; 
+    margin-left: 4%;
+    margin-right: 52%;
+    float: left;
+}
+
+
+.SENNA-title {
+    margin-top: 100px;
+    margin-left: 50%;
+    transform: translateX(+50%);
+    margin-right: 12%;
+    float: right;
+}
+
+.img-SENNA {
+    margin-top: 10px;
+    width: calc(50% - 2%);
+    height: 500px;
+    margin-right: 2%;
+    float: right;
+}
+.SENNA-text {
+    margin-top: 50px;
+    margin-left: 53%;
+    margin-right: 4%;
+    float: right;
+}
+
+
+.GT570-title {
+    margin-top: 100px; 
+    margin-left: 10%;
+    transform: translateX(-50%);
+    margin-right: 50%;
+    float: left;
+}
+.img-GT750 {
+    margin-top: 10px;
+    width: calc(50% - 2%);
+    height: 500px;
+    margin-left: 2%;
+    float: left;
+}
+.GT570-text {
+    margin-top: 50px;
+    margin-left: 4%;
+    margin-right: 52%;
+    float: left;
+}
+
+
+/* css de la page porsche*/
+
+
+
+.spyder-title {
+    margin-top: 100px; 
+    margin-left: 12%;
+    transform: translateX(-50%);
+    margin-right: 30%;
+    float: left;
+}
+.img-spyder {
+    margin-top: 10px;
+    width: calc(50% - 2%);
+    height: 500px;
+    margin-left: 2%;
+    float: left;
+}
+.spyder-text {
+    margin-top: 50px; 
+    margin-left: 4%;
+    margin-right: 52%;
+    float: left;
+}
+
+
+.turbo-title {
+    margin-top: 100px;
+    margin-left: 50%;
+    transform: translateX(+50%);
+    margin-right: 12%;
+    float: right;
+}
+
+.img-turbo {
+    margin-top: 10px;
+    width: calc(50% - 2%);
+    height: 500px;
+    margin-right: 2%;
+    float: right;
+}
+.turbo-text {
+    margin-top: 50px;
+    margin-left: 53%;
+    margin-right: 4%;
+    float: right;
+}
+
+
+.GT3-title {
+    margin-top: 100px; 
+    margin-left: 15%;
+    transform: translateX(-50%);
+    margin-right: 30%;
+    float: left;
+}
+.img-GT3 {
+    margin-top: 10px;
+    width: calc(50% - 2%);
+    height: 500px;
+    margin-left: 2%;
+    float: left;
+}
+.GT3-text {
+    margin-top: 50px;
+    margin-left: 4%;
+    margin-right: 52%;
+    float: left;
+}
+
+/* css de la page ferrari*/
+
+
+
+.LaFerrari-title {
+    margin-top: 100px; 
+    margin-left: 10%;
+    transform: translateX(-50%);
+    margin-right: 30%;
+    float: left;
+}
+.img-LaFerrari {
+    margin-top: 10px;
+    width: calc(50% - 2%);
+    height: 500px;
+    margin-left: 2%;
+    float: left;
+}
+.LaFerrari-text {
+    margin-top: 50px; 
+    margin-left: 4%;
+    margin-right: 52%;
+    float: left;
+}
+
+
+.Italia-title {
+    margin-top: 100px;
+    margin-left: 50%;
+    transform: translateX(+50%);
+    margin-right: 12%;
+    float: right;
+}
+
+.img-Italia {
+    margin-top: 10px;
+    width: calc(50% - 2%);
+    height: 500px;
+    margin-right: 2%;
+    float: right;
+}
+.Italia-text {
+    margin-top: 50px;
+    margin-left: 53%;
+    margin-right: 4%;
+    float: right;
+}
+
+
+.Pista-title {
+    margin-top: 100px; 
+    margin-left: 12%;
+    transform: translateX(-50%);
+    margin-right: 30%;
+    float: left;
+}
+.img-Pista {
+    margin-top: 10px;
+    width: calc(50% - 2%);
+    height: 500px;
+    margin-left: 2%;
+    float: left;
+}
+.Pista-text {
+    margin-top: 50px;
+    margin-left: 4%;
+    margin-right: 52%;
+    float: left;
+}
+
+
+/* css pour les version fenetre */
+
+/* css pour version tablette */
+@media only screen and (max-width: 1200px) {
+    body {
+        font-size: 18px; 
+    }
+
+    .banner {
+        padding: 300px 0%;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+    .banner p {
+        font-size: 22px;
+    }
+
+    li{
+        font-size: 22px;
+    }
+
+/*img page principale*/
+    .img-porsche {
+        width: 600px;
+        height: 300px;
+    }
+
+    .img-ferrari{
+        width: 600px;
+        height: 300px;
+    }
+
+    .img-mclaren {
+        width: 600px;
+        height: 300px;
+    }
+
+/*img page mclaren*/
+    .img-P1 {
+        width: 600px;
+        height: 300px;
+    }
+    .img-SENNA {
+        width: 600px;
+        height: 300px;
+    }
+    .img-GT750 {
+        width: 600px;
+        height: 300px;
+    }
+
+/*img page porsche*/
+    .img-spyder {
+        width: 600px;
+        height: 300px;
+    }
+    .img-turbo {
+        width: 600px;
+        height: 300px;
+    }
+    .img-GT3 {
+        width: 600px;
+        height: 300px;
+    }
+
+/*img page ferrari*/
+    .img-Italia {
+        width: 600px;
+        height: 300px;
+    }
+    .img-LaFerrari {
+        width: 600px;
+        height: 300px;
+    }
+    .img-Pista {
+        width: 600px;
+        height: 300px;
+    }
+}
+
+/* css pour vcersion téléphone */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+
+    .banner {
+        padding: 100px 0%;
+        width: 450px;
+    }
+    .banner h1 {
+        font-size: 22px;
+    }
+    .banner p {
+        font-size: 12px;
+    }
+
+    li{
+        font-size: 16px;
+    }
+
+    .img-porsche {
+        width: 400px;
+        height: 200px;
+    }
+
+    .img-ferrari{
+        width: 400px;
+        height: 200px;
+    }
+
+    .img-mclaren {
+        width: 400px;
+        height: 200px;
+    }
+
+    /*img page mclaren*/
+    .img-P1 {
+        width: 400px;
+        height: 200px;
+    }
+    .img-SENNA {
+        width: 400px;
+        height: 200px;
+    }
+    .img-GT750 {
+        width: 400px;
+        height: 200px;
+    }
+
+/*img page porsche*/
+    .img-spyder {
+        width: 400px;
+        height: 200px;
+    }
+    .img-turbo {
+        width: 400px;
+        height: 200px;
+    }
+    .img-GT3 {
+        width: 400px;
+        height: 200px;
+    }
+
+/*img page ferrari*/
+    .img-Italia {
+        width: 400px;
+        height: 200px;
+    }
+    .img-LaFerrari {
+        width: 400px;
+        height: 200px;
+    }
+    .img-Pista {
+        width: 400px;
+        height: 200px;
+    }
+}
